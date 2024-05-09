@@ -1,0 +1,82 @@
+.picturecellphone{
+    width: 50%;
+    height: 50%;
+}
+.middle{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.contact-container{
+    padding: 30px;
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+}
+
+.contactchild1{
+    width: 100%;
+}
+
+.contactchild2{
+    float: left;
+    padding: 0 10px;
+}
+
+
+.contacth1{
+font-size: 45px;
+text-align: right;
+justify-content: center;
+}
+
+.contacth2{
+    font-size: 16px;
+    text-align: right;
+}
+
+.contacth3{
+    font-size: 16px;
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-container{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .contactchild1{
+        padding: 10px 0px;
+    }
+    
+    .contactchild2{
+        width:100%;
+        float:center;
+        padding: 0 0px;
+    }
+
+    .contacth1{
+        font-size: 30px;
+        text-align: center;
+        }
+        
+        .contacth2{
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .contacth3{
+            font-size: 16px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+
+
+
+
+    }

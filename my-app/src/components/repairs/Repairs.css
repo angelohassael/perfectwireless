@@ -1,0 +1,70 @@
+.repair-container{
+height: auto;
+background: rgb(180,182,184);
+background: -moz-radial-gradient(circle, rgba(180,182,184,1) 7%, rgba(0,0,0,1) 83%);
+background: -webkit-radial-gradient(circle, rgba(180,182,184,1) 7%, rgba(0,0,0,1) 83%);
+background: radial-gradient(circle, rgba(180,182,184,1) 7%, rgba(0,0,0,1) 83%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b4b6b8",endColorstr="#000000",GradientType=1);
+}
+
+.intro-repair{
+    height: 15vh;
+    padding: 10px 10px;
+}
+.intro-h1{
+    color: white;
+    text-align: center;
+}
+
+.intro-h2{
+    text-align: center;
+}
+
+.listimg{
+    width: 30vh;
+}
+.h1-tag{
+    font-size: 40px;
+    color:#F20D0D;
+}
+.svg{
+    padding-right:0px;
+}
+.ul-list{
+    list-style: circle;
+}
+.list-div{
+    padding: 0px 30px;
+    height: 40vh;
+}
+li{
+    padding: 10px;
+    font-size: 30px;
+    color:black;
+}
+
+@media screen and (max-width: 960px){
+    .list-div{
+        padding: 0px 30px;
+        height: 30vh;
+    }
+    .h1-tag{
+        font-size: 30px;
+    }
+    li{
+        padding: 5px;
+        font-size: 20px;
+    }
+    .intro-repair{
+        height: 22vh;
+        padding: 0px 0px;
+    }
+    .intro-h1{
+        color: white;
+        font-size:3vh;
+    }
+    .intro-h2{
+        color: white;
+        font-size: 2vh;
+    }
+}

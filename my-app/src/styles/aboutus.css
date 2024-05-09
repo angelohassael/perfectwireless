@@ -1,0 +1,38 @@
+.about-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  
+  .about-content h1 {
+    font-size: 36px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .about-content h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .about-content ul {
+    list-style-type: none;
+  }
+
+  .about-content li {
+    font-size: 18px;
+    text-align: left;
+
+  }
+@media screen and (max-width: 600px) {
+
+}

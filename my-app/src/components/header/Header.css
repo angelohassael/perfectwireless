@@ -1,0 +1,8 @@
+.header-container{
+    height: 85vh;
+}
+@media screen and (max-width: 960px) {
+    .header-container{
+        height: 30vh;
+    }  
+}

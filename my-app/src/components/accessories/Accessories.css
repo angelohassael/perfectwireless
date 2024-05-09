@@ -1,0 +1,147 @@
+.accessories-container{
+    height: auto;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(180,182,184));
+    padding: 20px;
+}
+
+.h1tagcontainer{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1tag-a{
+    font-size: 6em;
+    text-align: center;
+}
+/*Glass Protector*/
+.glass{
+  display: flex;
+  align-items: center;
+}
+
+.glass-image{
+    float:left; 
+    width: 30%;
+}
+
+.glass-img{ 
+    height: 50vh;
+   
+}
+
+.glass-text{
+    float:right;
+    
+}
+
+
+.ptag-a{
+    font-size: 2em;
+    width: 50%;
+}
+
+/*Case Protector*/
+.case{
+    display: flex;
+    align-items: center;
+  }
+
+  .case-image{
+    float:left; 
+    padding: 10px;
+    width: 30%;
+}
+
+.case-img{ 
+    height: 50vh;
+   
+}
+.case-text{
+   float: right;
+    
+}
+.ptag-c{
+    float: right;
+
+    font-size: 2em;
+    width: 50%;
+}
+
+.centerimg{
+    justify-content: center;
+    align-items: center;
+}
+.imgfading{
+    display:block;
+    margin:auto;
+}
+
+.h2tag-a{
+    font-size: 3em;
+    padding:20px;
+}
+
+.grid-container-a{
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-ul{
+    text-align: center;
+    padding:30px;
+    list-style: square inside;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.grid-li{
+    text-align: left;
+    padding-left: 200px;
+}
+
+@media screen and (max-width: 960px){
+
+.h1tag-a{
+    font-size: 3em;
+}
+
+.glass{
+padding:15px;
+}
+
+.glass-img{ 
+    height: 20vh;
+   
+}
+.glass-image{
+    width: 40%;
+    padding: 10px;
+}
+.glass-text{
+    width: 60%;
+}
+.ptag-a{
+    font-size: 1em;
+    width: 80%;
+}
+.case-img{ 
+    height: 20vh;
+   
+}
+.case-image{
+    width: 40%;
+    padding: 10px;
+}
+.case-text{
+    width: 60%;
+}
+.ptag-c{
+    font-size: 1em;
+    width: 80%;
+}
+.grid-li{
+    padding: 3px;
+    font-size: 1em;
+}
+}
